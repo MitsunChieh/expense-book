@@ -1,0 +1,13 @@
+<% unless current_page?(items_path)||current_page?(categories_path) %>
+	<%= link_to 'Listing', items_path %>
+<% else %>
+	<strong>Listing</strong>
+<% end %>
+
+<% unless current_page?(expenses_path) %>
+	<%= link_to 'Expenses', expenses_path %>
+<% else %>
+	<strong>Expenses</strong>
+<% end %>
+
+<br><br>

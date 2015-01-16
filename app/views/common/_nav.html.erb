@@ -1,0 +1,13 @@
+<% unless current_page?(items_path) %>
+	<%= link_to 'Listing items', items_path %>
+<% else %>
+	<strong>Listing items</strong>
+<% end %>
+
+<% unless current_page?(categories_path) %>
+	<%= link_to 'Listing categories', categories_path %>
+<% else %>
+	<strong>Listing categories</strong>
+<% end %>
+
+<br><br>
