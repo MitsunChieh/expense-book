@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  cost: 
+  memo: MyText
+  category_id: 
+  date: 2015-01-16
+
+two:
+  name: MyString
+  cost: 
+  memo: MyText
+  category_id: 
+  date: 2015-01-16
